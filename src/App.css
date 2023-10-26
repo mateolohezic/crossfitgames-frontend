@@ -8,7 +8,7 @@
   --negro: rgb(31, 31, 31);
   --negro-hover: rgba(51, 51, 51, 1);
   --invalid-color: rgb( 244, 80, 80);
-  --main-font-familiy: 'Satoshi', sans-serif;
+  --main-font-familiy: 'Montserrat', sans-serif;
 }
 
 * {
@@ -39,7 +39,7 @@ body:not(.bg-white):not(.crear-usuario):not(.crear-edificio) {
 /* document.body.classList.add('crear-usuario'); */
 
 /*
-font-family: 'Satoshi', sans-serif;
+font-family: 'Montserrat', sans-serif;
 */
 
 /* 
