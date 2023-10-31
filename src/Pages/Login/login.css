@@ -1,0 +1,13 @@
+.contenedorPrincipalLogin{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.contenedorLogin{
+    width: 50%;
+    min-height: 100%;
+    background-color: var(--blanco);
+}
