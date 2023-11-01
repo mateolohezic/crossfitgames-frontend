@@ -51,6 +51,45 @@
     background-size: cover;
 }
 
+.crearCuentaLogin{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.crearCuentaLogin span{
+    width: 90%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.crearCuentaLogin p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 300;
+    color: var(--blanco-hover);
+}
+
+.crearCuentaLogin button{
+    margin-top: 1rem;
+    height: 40px;
+    width: 160px;
+    background-color: var(--blanco);
+    border-radius: 0.5rem;
+    color: var(--negro-fondo);
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.crearCuentaLogin button:hover{
+    background-color: var(--blanco-hover);
+}
+
 @media (max-width: 576px) {
 
     .contenedorLogin{

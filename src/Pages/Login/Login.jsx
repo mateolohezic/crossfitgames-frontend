@@ -12,6 +12,13 @@ function Login() {
                     <h1>Iniciar sesión</h1>
                     <p>Inicia sesión en CrossFit Games para comenzar a participar de nuestras competencias.</p>
                     <LoginForm/>
+                    <div className='crearCuentaLogin'>
+                        <span></span>
+                        <p>¿Aún no tienes una cuenta?</p>
+                        <a href="/register">
+                            <button type="button">Regístrate gratis</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className='imagenFondoLogin'>
