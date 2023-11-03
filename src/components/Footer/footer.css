@@ -1,0 +1,82 @@
+.footer {
+    background-color: var(--negro);
+    color: var(--blanco);
+    padding: 2rem;
+}
+
+.footer-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-info ul li {
+    list-style: none;
+    color: var(--blanco-hover);
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.contact-form {
+    padding: 1rem;
+}
+
+.contact-title {
+    color: var(--celeste);
+    margin-bottom: 1rem;
+}
+
+.footer-input {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.footer-input .fa {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.footer-input label {
+    display: block;
+}
+
+
+.footer-input input, .footer-input textarea {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid transparent;
+    color: var(--blanco);
+    font-size: 16px;
+    padding: 10px 32px;
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    font-weight: 200;
+    resize: none;
+}
+
+.footer-input input:focus, .footer-input textarea:focus {
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 2px solid var(--celeste);
+}
+
+.footer-input input::placeholder {
+    color: #666;
+}
+
+.footer-input input[disabled] {
+    background-color: rgba(125, 125, 125, 0.3);
+}
