@@ -8,6 +8,8 @@ import whatsapp from '../../assets/iconWhatsApp.png';
 import phone from '../../assets/iconPhone.png';
 import email from '../../assets/iconEmail.png';
 
+import menu from '../../assets/menu.svg';
+
 const NavBar = () => {
 
   return (
@@ -18,9 +20,10 @@ const NavBar = () => {
             <img src={logo} alt="crossfit-logo" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+            {/* <span className="navbar-toggler-icon"></span> */}
+            <img src={menu} alt="menu" />
           </button>
-          <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div className="offcanvas-header">
               <a className="navbar-brand" href="#">
                 <img src={logo} alt="crossfit-logo" />
@@ -30,27 +33,31 @@ const NavBar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a className="nav-link active" aria-current="page" href="">Inicio</a>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Inscripción</a>
+                  <a className="nav-link" href="#Inscripcion">Inscripción</a>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">¿Qué es?</a>
+                  <a className="nav-link" href="#QueEs">¿Qué es?</a>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Competencia Actual</a>
+                  <a className="nav-link" href="#Competencia">Competencia Actual</a>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Sponsors</a>
+                  <a className="nav-link" href="#Sponsors">Sponsors</a>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Nosotros</a>
+                  <a className="nav-link" href="#Nosotros">Nosotros</a>
+                  <span className="navLinkUnderline"></span>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/login">Iniciar Sesión</a>
                   <span className="navLinkUnderline"></span>
                 </li>
               </ul>
@@ -86,7 +93,7 @@ const NavBar = () => {
           </li>
           <li>
             <Link to="https://google.com" target="_blank">
-              <span className="visually-hidden">Teléfono</span>
+              <span className="visually-hidden">YouTube</span>
               <img src={youtube} alt="YouTube crossfitgames" />
             </Link>
           </li>

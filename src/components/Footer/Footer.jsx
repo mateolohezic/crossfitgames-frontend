@@ -1,51 +1,66 @@
 import React from 'react';
 import './footer.css';
 import logo from '../../assets/logo.png';
+import instagram from '../../assets/iconInstagram.png';
+import youtube from '../../assets/iconYouTube.png';
+import whatsapp from '../../assets/iconWhatsApp.png';
+import phone from '../../assets/iconPhone.png';
+import email from '../../assets/iconEmail.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <footer className='footer'>
             <div className="container">
-                <div className="row row-cols-1 row-cols-lg-2">
-                    <div className="col">
-                        <section className="footer-info">
-                            <div className="footer-logo">
-                                <img src={logo} alt="logo" />
-                            </div>
+                <article>
+                    <header>
+                        <div className="footerLogo">
+                            <img src={logo} alt="logo" />
+                        </div>
+                        <div className="footerSocial">
                             <ul>
-                                <h3>Informacion de Contacto</h3>
                                 <li>
-                                    <p>asdasdad@gmail.com</p>
+                                    <Link className='footerSocialLink' to="https://google.com" target="_blank">
+                                        <span className="visually-hidden">Instagram</span>
+                                        <img src={instagram} alt="Instagram crossfitgames" />
+                                    </Link>
                                 </li>
                                 <li>
-                                    <p>+54 9 381 653-3021</p>
+                                    <Link className='footerSocialLink' to="https://google.com" target="_blank">
+                                        <span className="visually-hidden">WhatsApp</span>
+                                        <img src={whatsapp} alt="WhatsApp crossfitgames" />
+                                    </Link>
                                 </li>
                                 <li>
-                                    <p>crossfit_ok</p>
+                                    <Link className='footerSocialLink' to="https://google.com" target="_blank">
+                                        <span className="visually-hidden">E-mail</span>
+                                        <img src={email} alt="Email crossfitgames" />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className='footerSocialLink' to="https://google.com" target="_blank">
+                                        <span className="visually-hidden">Teléfono</span>
+                                        <img src={phone} alt="telefono crossfitgames" />
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className='footerSocialLink' to="https://google.com" target="_blank">
+                                        <span className="visually-hidden">YouTube</span>
+                                        <img src={youtube} alt="YouTube crossfitgames" />
+                                    </Link>
                                 </li>
                             </ul>
-                        </section>
-                    </div>
-                    <div className="col">
-                        <form action="" className='contact-form'>
-                            <h2 className='contact-title'>Envíanos tu consulta</h2>
-                            <label htmlFor="contact-name">Nombre</label>
-                            <div className='footer-input'>
-                                <i className="fa fa-user" aria-hidden="true"></i>
-                                <input type="text" name="contact-name" id="contact-name" required />
-                            </div>
-                            <label htmlFor="contact-email">Email</label>
-                            <div className='footer-input'>
-                                <i className="fa fa-envelope" aria-hidden="true"></i>
-                                <input type="email" name="contact-email" id="contact-email" required />
-                            </div>
-                            <label htmlFor="contact-message">Escribe tu mensaje:</label>
-                            <div className="footer-input">
-                                <textarea name="contact-message" id="contact-message" cols="30" rows="10">¡Hola!, Me gustaría saber sobre...</textarea>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                        </div>
+                    </header>
+                    <div className="footerDivisor"></div>
+                    <main>
+                        <h4>Title xdxd</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, veritatis esse? Cupiditate dolores reprehenderit vero voluptatum veniam sunt illum fugit, quidem nobis eveniet vitae praesentium minima esse necessitatibus. Aut quia odio ut? Iure, laudantium dolorem incidunt voluptates assumenda quasi temporibus? Dolore, sint delectus veritatis eaque animi quod ipsum, molestiae autem culpa rerum tenetur dicta. Impedit voluptates veritatis cumque dolorem recusandae.</p>
+                    </main>
+                    <footer>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias nisi quibusdam enim vero recusandae sit iure, mollitia ullam nemo architecto?</p>
+                    </footer>
+                </article>
             </div>
         </footer>
     )

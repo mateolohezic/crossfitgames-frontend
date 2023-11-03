@@ -8,11 +8,22 @@
     position: relative;
 }
 
+.navbar-toggler {
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+.navbar-toggler img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
 .navbar-nav {
     justify-content: flex-end;
     flex-grow: 1;
     gap: 2rem;
-    padding-right: 1.5rem;
 }
 
 .nav-item {
@@ -23,10 +34,10 @@
 .nav-link {
     color: var(--blanco-hover);
     padding: 10px 0px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 800;
     letter-spacing: 1px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .nav-link:hover, 
@@ -50,7 +61,8 @@
     height: 2px;
     background-color: var(--celeste);
     transition: 0.3s;
-    display: none;
+    display: inline-block;
+    left: 0;
 }
 
 .navbar-brand img {
