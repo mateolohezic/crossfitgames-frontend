@@ -11,10 +11,16 @@
     "start": "npm run dev"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap": "^5.3.2",
     "font-awesome": "^4.7.0",
+=======
+    "@formkit/auto-animate": "^0.8.0",
+    "axios": "^1.6.0",
+>>>>>>> e8c46fabbfba08993fcd586b262d527e4fbe2b8a
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.47.0",
     "react-router-dom": "^6.17.0"
   },
   "devDependencies": {
