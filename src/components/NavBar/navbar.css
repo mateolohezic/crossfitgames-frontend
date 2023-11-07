@@ -4,7 +4,8 @@
     text-transform: uppercase;
 }
 
-.navbar {
+.navbar, .navbarHeader {
+    z-index: 1000000000;
     position: relative;
 }
 

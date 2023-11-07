@@ -110,6 +110,11 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
+.navbar-nav {
+  --bs-nav-link-color: var(--blanco);
+  --bs-nav-link-hover-color: var(--blanco);
+}
+
 @media (max-width: 576px) {
 
 }
