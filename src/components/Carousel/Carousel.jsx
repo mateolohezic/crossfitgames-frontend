@@ -1,25 +1,18 @@
 import React from 'react'
+import './carousel.css'
 
 const Carousel = ({ imgs }) => {
     return (
-        <div id="carouselExample" className="carousel slide" data-bs-pause="off">
+        <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-pause="off" data-bs-ride="carousel">
             <div className="carousel-inner">
                 {
-                    imgs.map((img) => (
-                        <div className="carousel-item active">
+                    imgs.map((img, index) => (
+                        <div className="carousel-item active" key={`img-${index + 1}`}>
                             <img src={img.img} className="d-block w-100" alt={img.alt} />
                         </div>
                     ))
                 }
             </div>
-            {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button> */}
         </div>
     )
 }
