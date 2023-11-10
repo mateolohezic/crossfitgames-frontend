@@ -1,0 +1,94 @@
+.formularioRegister{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.campoFormRegister{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.dobleCampoFormRegister{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+}
+
+.dobleCampoFormRegister .campoFormRegister{
+    width: calc(50% - 1rem);
+}
+
+.campoFormRegister label{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.campoFormRegister input{
+    margin-top: 0.5rem;
+    background-color: var(--light-card-bg-color);
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    height: 40px;
+    width: 100%;
+    border-radius: 0.25rem;
+    color: rgb(255, 255, 255);
+}
+
+.campoFormRegister input:focus{
+    background-color: var(--light-card-bg-color);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(25, 167, 206, 1);
+}
+
+.divBotonIniciarSesion{
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(255, 255, 255, 0.1);
+}
+
+.divBotonIniciarSesion button{
+    height: 50px;
+    width: 400px;
+    background-color: var(--celeste);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+
+.divBotonIniciarSesion button:hover{
+    background-color: var(--celeste-hover);
+}
+
+@media (max-width: 576px) {
+
+    .divBotonIniciarSesion button{
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+}
+
+@media (min-width: 1920px) {
+
+}

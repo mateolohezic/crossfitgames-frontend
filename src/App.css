@@ -12,6 +12,7 @@
   --negro-hover: rgba(51, 51, 51, 1);
   --gris: rgb(100, 100, 100);
   --gris-hover: rgba(100, 100, 100, 0.8);
+  --negro-fondo: rgb(10, 10, 10);
   --invalid-color: rgb( 244, 80, 80);
   --main-font-familiy: 'Satoshi', sans-serif;
 }
@@ -29,7 +30,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body{
-  background-color: rgb(10, 10, 10);
+  background-color: var(--negro-fondo);
 }
 
 /*
@@ -80,7 +81,7 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: black !important;
+  -webkit-text-fill-color: var(--blanco) !important;
 }
 
 .form-control:focus {
@@ -111,6 +112,11 @@ input[type="search"]::-webkit-search-results-decoration {
 
 ::-ms-reveal{
   display: none;
+}
+
+.navbar-nav {
+  --bs-nav-link-color: var(--blanco);
+  --bs-nav-link-hover-color: var(--blanco);
 }
 
 @media (max-width: 576px) {
