@@ -1,0 +1,157 @@
+.portadaCompetenciaPrincipal{
+    width: 100%;
+    padding-top: 300px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.portadaCompetenciaPrincipal div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("https://th.bing.com/th/id/OIG.cp_OWBkwWor6aauOImkM?w=1024&h=1024&rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.7);
+    filter: blur(3px);
+    background-position: 50% 30%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.portadaCompetenciaPrincipal h1{
+    background-color: rgb(40, 40, 40, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-avant);
+    color: var(--blanco);
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 500;
+    text-shadow: 5px 5px 6px rgba( 31, 31, 31, 0.2);
+}
+
+.grillaCardsCompetenciaActual{
+    width: 1200px;
+    margin: auto;
+    margin-block: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 4rem;
+}
+
+.cardEtapaCompetenciaActual{
+    width: 100%;
+    background-color: var(--negro-card);
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.imagenCardEtapaCompetenciaActual{
+    width: 40%;
+    padding-top: 30%;
+    height: 100%;
+    background-image: url("https://th.bing.com/th/id/OIG.cp_OWBkwWor6aauOImkM?w=1024&h=1024&rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    background-color: rgb(31, 31, 31, 0.3);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.contenidoCardCompetenciaActual{
+    width: 60%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidoCardCompetenciaActual h2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenidoCardCompetenciaActual h2 b{
+    font-size: 1.2rem;
+    color: var(--azul);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.contenidoCardCompetenciaActual h2 small{
+    font-size: 2rem;
+    color: var(--blanco);
+}
+
+.contenidoCardCompetenciaActual p{
+    width: 80%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: var(--blanco);
+}
+
+.fechaEtapaCardCompetenciaActual{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+    flex-grow: 1;
+}
+
+.fechaEtapaCardCompetenciaActual div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.fechaEtapaCardCompetenciaActual div h3{
+    font-size: 1.3rem;
+    color: var(--azul);
+    font-weight: 600;
+}
+
+.fechaEtapaCardCompetenciaActual div h4{
+    font-size: 1.3rem;
+    color: var(--blanco);
+    font-weight: 300;
+}
+
+.botonCardEtapaCompetenciaActual{
+    width: 100%;
+    text-align: end;
+}
+
+.botonCardEtapaCompetenciaActual a{
+    text-decoration: none;
+}
+
+.botonCardEtapaCompetenciaActual a button{
+    background-color: var(--azul);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    color: var(--blanco);
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: all .3s ease;
+}
+
+.botonCardEtapaCompetenciaActual a button:hover{
+    background-color: var(--azul-hover);
+}

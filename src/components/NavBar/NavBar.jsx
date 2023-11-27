@@ -33,7 +33,7 @@ const NavBar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="">Inicio</a>
+                  <a className="nav-link active" aria-current="page" href="/">Inicio</a>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
@@ -45,7 +45,7 @@ const NavBar = () => {
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Competencia">Competencia Actual</a>
+                  <a className="nav-link" href="/competencia-actual">Competencia Actual</a>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">

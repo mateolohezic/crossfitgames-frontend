@@ -7,8 +7,8 @@
   --azul-hover: rgb(20, 108, 148, 0.8);
   --negro: rgb(31, 31, 31);
   --negro-fondo: rgba(10, 10, 10);
+  --negro-card: rgba(31, 31, 31, 1);
   --negro-hover: rgba(51, 51, 51, 1);
-  --negro-fondo: rgb(10, 10, 10);
   --invalid-color: rgb( 244, 80, 80);
   --main-font-familiy: 'Satoshi', sans-serif;
 }
