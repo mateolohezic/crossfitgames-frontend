@@ -2,6 +2,14 @@
     background-color: var(--negro-fondo);
     color: var(--blanco);
     padding: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer section{
+    width: 1200px;
 }
 
 .footer header {

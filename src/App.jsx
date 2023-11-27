@@ -6,6 +6,8 @@ import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
+import CompetenciaActual from './Pages/CompetenciaActual/CompetenciaActual';
+import EtapaCompetencia from './Pages/EtapaCompetencia/EtapaCompetencia';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/register" element={<Register/>} />
+        <Route path="/competencia-actual" element={<CompetenciaActual/>} />
+        <Route path="/etapa/:id" element={<EtapaCompetencia/>} />
       </Routes>
       <Footer />
     </>
