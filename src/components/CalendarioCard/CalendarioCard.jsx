@@ -10,7 +10,7 @@ const CalendarioCard = ({ cabecera, fecha, titulo, descripcion, link, invite }) 
             </div>
             <div className="calendarioCardContent">
                 <div className="calendarioCardMain">
-                    <h5>{fecha}</h5>
+                    <span>{fecha}</span>
                     <h3>{titulo}</h3>
                     <p>{descripcion}</p>
                 </div>

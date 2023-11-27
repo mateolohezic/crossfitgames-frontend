@@ -30,7 +30,13 @@ background-size: cover;
 }
 
 .calendarioCardHeader h5 {
-    padding: 0rem 1.5rem;
+    padding-inline: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    align-self: center;
+    transform: translateY(0.2rem);
 }
 
 .calendarioCardContent {
@@ -38,27 +44,33 @@ background-size: cover;
 }
 
 .calendarioCardMain {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 1.5rem;
 }
 
-.calendarioCardMain h5 {
-    color: var(--gris);
+.calendarioCardMain span {
+    background-color: var(--negro-fondo);
+    color: var(--blanco);
     font-size: 1rem;
-    margin-bottom: 0.5rem;
+    padding-inline: 0.5rem;
     font-family: monospace;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .calendarioCardMain h3 {
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .calendarioCardMain p {
     color: var(--blanco-hover);
+}
+
+.calendarioCardFooter{
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .calendarioCardFooterLink {
