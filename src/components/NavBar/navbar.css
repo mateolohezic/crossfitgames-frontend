@@ -42,8 +42,7 @@
 }
 
 .nav-link:hover, 
-.nav-link.active, 
-.nav-link:active {
+.nav-link.active {
     color: var(--blanco) !important;
 }
 
@@ -51,8 +50,7 @@
     color: #555;
 }
 
-.nav-link:hover + .navLinkUnderline, 
-.nav-link.active + .navLinkUnderline {
+.nav-link:hover + .navLinkUnderline {
     width: 100%;
 }
 

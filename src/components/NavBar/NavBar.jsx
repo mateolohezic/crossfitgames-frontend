@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import instagram from '../../assets/iconInstagram.png';
 import youtube from '../../assets/iconYouTube.png';
 import whatsapp from '../../assets/iconWhatsApp.png';
@@ -33,31 +33,31 @@ const NavBar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="/">Inicio</a>
+                  <NavLink className="nav-link" to="/">Inicio</NavLink>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Inscripcion">Inscripción</a>
+                  <NavLink className="nav-link" to="/inscripcion">Inscripción</NavLink>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#QueEs">¿Qué es?</a>
+                  <NavLink className="nav-link" to="/que-es">¿Qué es?</NavLink>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/competencia-actual">Competencia Actual</a>
+                  <NavLink className="nav-link" to="/competencia-actual">Competencia Actual</NavLink>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Sponsors">Sponsors</a>
+                  <NavLink className="nav-link" to="/sponsors">Sponsors</NavLink>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#Nosotros">Nosotros</a>
+                  <NavLink className="nav-link" to="/nosotros">Nosotros</NavLink>
                   <span className="navLinkUnderline"></span>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/login">Iniciar Sesión</a>
+                  <NavLink className="nav-link" to="/login">Iniciar Sesión</NavLink>
                   <span className="navLinkUnderline"></span>
                 </li>
               </ul>
