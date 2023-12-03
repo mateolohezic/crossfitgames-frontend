@@ -1,0 +1,82 @@
+.sponsorsForm {
+    background-image: url('../../assets/sponsors-wp.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: var(--blanco);
+}
+
+.sponsorsFormOverlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: grayscale(100%) blur(3px);
+    padding-top: 2rem
+}
+
+.sponsorsForm h4, .sponsorsForm label {
+    color: var(--gris);
+}
+
+.sponsorInputContainer {
+    margin: 0.5rem 0rem;
+}
+
+.sponsorInputContainer label {
+    display: block;
+    text-align: start;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.sponsorInputContainer input, .sponsorInputContainer textarea {
+    width: 100%;
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+    border-radius: 0.5rem;
+    color: #bebebe;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    transition: 0.4s;
+    font-weight: 200;
+}
+
+.sponsorInputContainer input:focus, .sponsorInputContainer textarea:focus {
+    border: 1px solid var(--azul);
+    color: var(--blanco);
+}
+
+.sponsorInputContainer span {
+    color: var(--invalid-color);
+    font-size: 0.9rem;
+    display: block;
+    text-align: start;
+}
+
+.sponsorsFormFooterGradient {
+    background: rgb(10,10,10);
+    background: linear-gradient(0deg, rgba(10,10,10,1) 0%, transparent 100%);
+    height: 25vh;
+}
+
+.sponsorsFormButton {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    background-color: var(--celeste-hover);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0rem;
+    transition: 0.4s;
+    color: var(--blanco-hover);
+}
+
+.sponsorsFormButton:hover {
+    background-color: var(--celeste);
+    color: var(--blanco);
+}
+
+.sponsorsFormButton:active {
+    background-color: var(--azul);
+}
