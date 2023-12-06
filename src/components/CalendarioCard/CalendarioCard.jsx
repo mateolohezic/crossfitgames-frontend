@@ -10,9 +10,9 @@ const CalendarioCard = ({ cabecera, fecha, titulo, descripcion, link, invite }) 
             </div>
             <div className="calendarioCardContent">
                 <div className="calendarioCardMain">
-                    <span>{fecha}</span>
                     <h3>{titulo}</h3>
                     <p>{descripcion}</p>
+                    <span>{fecha}</span>
                 </div>
                 <div className="calendarioCardFooter">
                     <div className='calendarioCardFooterLink'>
