@@ -35,18 +35,22 @@ function Home() {
                 <Carousel imgs={wallpapers} />
                 <div className="portadaOverlay">
                     <div className="container h-100">
-                        <div className="row contenidoPortada">
-                            <div className="col-12 col-lg-6">
-                                <h1>Bienvenido a CrossFit Games Tucumán</h1>
-                                <h4>Subtítulo para CrossFit Games</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita repellendus quod fugiat consequuntur maiores vel, cumque ex nostrum tempore debitis!</p>
+                        <div className="contenidoPortada">
+                            <div>
+                                <h1>¡Prepárate para la batalla!<b>CrossFit Games Tucumán</b></h1>
+                                <p>¡Únete a la competición que desafiará tus límites! Inicia tu camino hacia la gloria inscribiéndote ahora mismo.</p>
+                                <a href="/">
+                                    <button type="button">INSCRIBIRME</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <h2 className='eventosTitulo'>Eventos Próximos</h2>
-            <Eventos events={calendarEvents} />
+            <section>
+                <h2 className='eventosTitulo'>Eventos Próximos</h2>
+                <Eventos events={calendarEvents} />
+            </section>
             <section className="calendario">
                 <div className="calendarioTitulo">
                     <h4>Calendario</h4>

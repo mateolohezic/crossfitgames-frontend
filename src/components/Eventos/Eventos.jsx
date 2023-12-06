@@ -3,7 +3,7 @@ import './eventos.css';
 
 const Eventos = ({ events }) => {
     return (
-        <section className="Eventos">
+        <div className="Eventos">
             {
                 events.map((event, index) => (
                     <a className="EventosEvent" href={event.link} target='__blank' key={`event-${index + 1}`}>
@@ -18,7 +18,7 @@ const Eventos = ({ events }) => {
                     </a>
                 ))
             }
-        </section>
+        </div>
     )
 }
 
