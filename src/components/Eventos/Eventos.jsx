@@ -7,6 +7,7 @@ const Eventos = ({ events }) => {
             {
                 events.map((event, index) => (
                     <a className="EventosEvent" href={event.link} target='__blank' key={`event-${index + 1}`}>
+                        {/* AGREGAR ARTICLE */}
                         <div className="EventosEventIcon">
                             <img src={event.icon} alt={event.title} />
                         </div>
