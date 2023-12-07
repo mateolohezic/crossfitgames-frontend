@@ -17,6 +17,11 @@
   --main-font-familiy: 'Satoshi', sans-serif;
 }
 
+.navbar-nav {
+  --bs-nav-link-color: var(--blanco);
+  --bs-nav-link-hover-color: var(--blanco);
+}
+
 * {
   font-family: var(--main-font-familiy);
   margin: 0;
@@ -112,11 +117,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
 ::-ms-reveal{
   display: none;
-}
-
-.navbar-nav {
-  --bs-nav-link-color: var(--blanco);
-  --bs-nav-link-hover-color: var(--blanco);
 }
 
 @media (max-width: 576px) {

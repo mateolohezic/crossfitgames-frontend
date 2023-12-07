@@ -13,8 +13,20 @@
     padding-top: 2rem
 }
 
-.sponsorsForm h4, .sponsorsForm label {
+.sponsorsForm h4{
     color: var(--gris);
+}
+
+.sponsorsForm label {
+    color: var(--blanco);
+    font-weight: 300;
+}
+
+.contenedorFormSponsors{
+    margin-top: 2rem;
+    background-color: var(--negro-card);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
 }
 
 .sponsorInputContainer {
@@ -31,12 +43,12 @@
 .sponsorInputContainer input, .sponsorInputContainer textarea {
     width: 100%;
     resize: none;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid transparent;
     outline: none;
     border-radius: 0.5rem;
     color: #bebebe;
-    background-color: rgba(0, 0, 0, 0.7);
-    font-size: 1.2rem;
+    background-color: var(--negro-hover);
+    font-size: 1rem;
     padding: 0.5rem 1rem;
     transition: 0.4s;
     font-weight: 200;
@@ -45,6 +57,11 @@
 .sponsorInputContainer input:focus, .sponsorInputContainer textarea:focus {
     border: 1px solid var(--azul);
     color: var(--blanco);
+}
+
+.sponsorInputContainer input::placeholder, .sponsorInputContainer textarea::placeholder {
+    color: rgb(255, 255, 255,0.6);
+    font-size: 1rem;
 }
 
 .sponsorInputContainer span {
