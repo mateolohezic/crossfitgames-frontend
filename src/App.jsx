@@ -8,6 +8,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import CompetenciaActual from './Pages/CompetenciaActual/CompetenciaActual';
 import EtapaCompetencia from './Pages/EtapaCompetencia/EtapaCompetencia';
+import Sponsors from './Pages/Sponsors/Sponsors';
 
 function App() {
 
@@ -15,11 +16,12 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/login" element={<Login/>} />
-        <Route path="/register" element={<Register/>} />
-        <Route path="/competencia-actual" element={<CompetenciaActual/>} />
-        <Route path="/etapa/:id" element={<EtapaCompetencia/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/competencia-actual" element={<CompetenciaActual />} />
+        <Route path="/etapa/:id" element={<EtapaCompetencia />} />
+        <Route path="/sponsors" element={<Sponsors />} />
       </Routes>
       <Footer />
     </>
