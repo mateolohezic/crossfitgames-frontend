@@ -23,7 +23,7 @@ function EtapaCompetencia() {
             <section className='infoEtapaCompetencia'>
                 <div className='videoInfoEtapaCompetencia'>
                     <div>
-                        <iframe src="https://www.youtube.com/embed/TL8SMp7RdXQ?si=tVDTQpXOsJ3vXvV-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/TL8SMp7RdXQ?si=tVDTQpXOsJ3vXvV-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     </div>
                 </div>
                 <div className='textoInfoEtapaCompetencia'>
@@ -74,7 +74,7 @@ function EtapaCompetencia() {
                     </ul>
                     <div>
                         <a href="/">
-                            <button></button>
+                            <button>INICIAR</button>
                         </a>
                     </div>
                 </div>
