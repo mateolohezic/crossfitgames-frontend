@@ -1,6 +1,12 @@
 import React from 'react'
 import './etapaCompetencia.css'
 import { useParams } from 'react-router-dom'
+import dificultadIcon from '../../assets/dificultadIcon.png'
+import ejercicioIcon from '../../assets/ejercicioIcon.png'
+import estadoIcon from '../../assets/estadoIcon.png'
+import repeticionesIcon from '../../assets/repeticionesIcon.png'
+import seriesIcon from '../../assets/seriesIcon.png'
+import tiempoIcon from '../../assets/tiempoIcon.png'
 
 function EtapaCompetencia() {
     
@@ -24,42 +30,53 @@ function EtapaCompetencia() {
                     <h3>Información</h3>
                     <ul>
                         <li>
-                            <b>Ejercicio:</b>
-                            <span>
+                            <img src={ejercicioIcon} alt="" />
+                            <span>Ejercicio</span>
+                            <b>
                                 Nombre
-                            </span>
+                            </b>
                         </li>
                         <li>
-                            <b>Dificultad:</b>
-                            <span>
+                            <img src={dificultadIcon} alt="" />
+                            <span>Dificultad</span>
+                            <b>
                                 Fácil
-                            </span>
+                            </b>
                         </li>
                         <li>
-                            <b>Repeticiones:</b>
-                            <span>
+                            <img src={repeticionesIcon} alt="" />
+                            <span>Repeticiones</span>
+                            <b>
                                 1914
-                            </span>
+                            </b>
                         </li>
                         <li>
-                            <b>Series:</b>
-                            <span>
+                            <img src={seriesIcon} alt="" />
+                            <span>Series</span>
+                            <b>
                                 1
-                            </span>
+                            </b>
                         </li>
                         <li>
-                            <b>Tiempo:</b>
-                            <span>
+                            <img src={tiempoIcon} alt="" />
+                            <span>Tiempo</span>
+                            <b>
                                 10 Minutos
-                            </span>
+                            </b>
                         </li>
                         <li>
-                            <b>Estado:</b>
-                            <span>
+                            <img src={estadoIcon} alt="" />
+                            <span>Estado</span>
+                            <b>
                                 Disponible
-                            </span>
+                            </b>
                         </li>
                     </ul>
+                    <div>
+                        <a href="/">
+                            <button></button>
+                        </a>
+                    </div>
                 </div>
             </section>
         </main>

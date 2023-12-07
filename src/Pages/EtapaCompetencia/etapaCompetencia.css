@@ -27,7 +27,7 @@
 }
 
 .videoInfoEtapaCompetencia{
-    width: calc(50% - 1rem);
+    width: calc(60% - 1rem);
 }
 
 .videoInfoEtapaCompetencia div{
@@ -46,7 +46,7 @@
 }
 
 .textoInfoEtapaCompetencia{
-    width: calc(50% - 1rem);
+    width: calc(40% - 1rem);
     background-color: var(--negro-card);
     border-radius: 0rem 0rem 0.5rem 0.5rem;
 }
@@ -80,14 +80,16 @@
     align-items: center;
 }
 
-.textoInfoEtapaCompetencia ul li span{
-    color: rgb(255, 255, 255, 0.9);
-    font-weight: 700;
+.textoInfoEtapaCompetencia ul li img{
+    width: 40px;
 }
 
 .textoInfoEtapaCompetencia ul li b{
-    color: rgb(255, 255, 255, 0.9);
+    color: rgb(255, 255, 255, 1);
     font-weight: 700;
-    color: rgb(255, 255, 255, 0.6);
+}
+
+.textoInfoEtapaCompetencia ul li span{
+    color: #A3A3A3;
     font-weight: 300;
 }
