@@ -3,10 +3,11 @@ import './eventos.css';
 
 const Eventos = ({ events }) => {
     return (
-        <section className="Eventos">
+        <div className="Eventos">
             {
                 events.map((event, index) => (
                     <a className="EventosEvent" href={event.link} target='__blank' key={`event-${index + 1}`}>
+                        {/* AGREGAR ARTICLE */}
                         <div className="EventosEventIcon">
                             <img src={event.icon} alt={event.title} />
                         </div>
@@ -18,7 +19,7 @@ const Eventos = ({ events }) => {
                     </a>
                 ))
             }
-        </section>
+        </div>
     )
 }
 

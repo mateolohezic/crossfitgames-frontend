@@ -106,12 +106,14 @@
 
 .fechaEtapaCardCompetenciaActual{
     margin-top: 2rem;
+    padding-top: 1rem;
     width: 100%;
     display: flex;
     justify-content: start;
     align-items: start;
     gap: 2rem;
     flex-grow: 1;
+    border-top: 1px solid rgb(255, 255, 255, 0.1);
 }
 
 .fechaEtapaCardCompetenciaActual div{
@@ -143,7 +145,7 @@
 }
 
 .botonCardEtapaCompetenciaActual a button{
-    background-color: var(--azul);
+    background-color: var(--celeste);
     padding: 0.5rem 2rem;
     border-radius: 0.5rem;
     color: var(--blanco);
@@ -153,5 +155,5 @@
 }
 
 .botonCardEtapaCompetenciaActual a button:hover{
-    background-color: var(--azul-hover);
+    background-color: var(--celeste-hover);
 }
